@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+a,p,button,span,h1,h2,h3,h4,h5,h6 {
+    font-family: 'Inter';
+    text-decoration: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+nav {
+    background: #FFFBF3;
+}
+span {
+    color: #FCC647;
+}
+nav div {
+    gap: 90px;
+}
+nav div a {
+    color: black;
+}
+.delievery {
+    background: #FFF2D4;
+    border-radius: 7px;
+    padding: 7px 13px;
+    padding-bottom: 0;
+}
+header button {
+    background: #FFC12F;
+    color: white;
+    transition: 0.5s;
+    border: 1px solid #FFC12F;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+header button:hover {
+    background: transparent;
+    color: black;
+}
+.sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8rem;
+    background-image: url(./assets/bghead.png);
+    background-size: 750px;
+    background-color: #FFFBF3;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+}
+.sec1-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.sec1-left h2 {
+    color: #667085;
+}
+.sec1-right {
+    width: 500px;
+    height: 500px;
+}
+.play {
+    cursor: pointer;
+    background-image: url(./assets/play.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 500;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(199, 199, 199, 0.25);
+}
+.sec1-btn {
+    gap: 15px;
+}
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec2-cards {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.icons1 {
+    background-image: url(./assets/sec21.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 88px;
+    width: 88px;
+    background-color: #335DFF;
+    border-radius: 50%;
+}
+.icons2 {
+    background-image: url(./assets/sec22.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 88px;
+    width: 88px;
+    background-color: #F6CA00;
+    border-radius: 50%;
+}
+.icons3 {
+    background-image: url(./assets/sec23.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 88px;
+    width: 88px;
+    background-color: #0BD28E;
+    border-radius: 50%;
+}
+.sec2-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec3-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    width: 1250px;
+    padding-top: 5rem;
+}
+.sec3-card {
+    cursor: pointer;
+    border: 1px solid #70707033;
+    border-radius: 10px;
+    height: 320px;
+    width: 275px;
+    border: 0.698848px solid rgba(112, 112, 112, 0.2);
+    transition: 0.5s;
+    padding: 10px;
+}
+.sec3-card:hover {
+    border: 1px solid #F9A755;
+    box-shadow: 0px 30px 30px 13px rgba(198, 198, 198, 0.25);
+}
+.sec3-card-img {
+    width: 147px;
+    height: 147px;
+    margin-left: 50px;
+}
+.sec3-card svg {
+    color: #F9A755;
+}
+.sec3-card-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-box {
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+.flex-box svg {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.3s;
+    color: #667085;
+    border: 1px solid #667085;
+}
+.flex-box svg:hover {
+    background-color: #F6CA00;
+    color: white;
+    border: none;
+}
+.sec4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 8rem 17rem;
+    background-image: url(./assets/dostavshik.png);
+    background-repeat: no-repeat;
+    background-position: 10rem;
+    background-color: #FFFBF3;
+    height: 700px;
+}
+.delievery2 {
+    background: #FFF2D4;
+    border-radius: 7px;
+    padding: 7px 13px;
+    padding-bottom: 1px;
+    width: 109px;
+}
+.seriy {
+    color: #535353;
+}
+.btn1 {
+    padding: 0.6rem 1.5rem;
+    border: 1px solid #F6CA00;
+    background: #F6CA00;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+}
+.btn1:hover {
+    background: transparent;
+    color: black;
+}
+.sec5 {
+    padding-left: 25rem;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    background-image: url(./assets/doira.png);
+    background-repeat: no-repeat;
+    background-position: 75rem;
+    height: 700px;
+    gap: 25.5rem;
+}
+.stores {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.stores img {
+    cursor: pointer;
+}
+.two-color {
+    display: flex;
+    align-items: center;
+    padding-left: 20rem;
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(white 0%, white 50%, #232233 50%, #232233 100%);
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 50%;
+    background-color: white;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 20px 14px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 20px 14px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 20px 14px rgba(0, 0, 0, 0.2);
+}
+.contact div {
+    height: 60%;
+    width: 4px;
+    border-radius: 5px;
+    background-color: #5353536b;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #232233;
+    color: white;
+}
+.svg-icons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.svg-icons svg {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    color: white;
+    transition: 0.5s;
+}
+.svg-icons svg:hover {
+    color: #F6CA00;
+}
+footer span {
+    color: #FCC647;
+}
+.quick-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+.quick-link a {
+    color: white;
+    text-decoration: none;
+}
+.form {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    background: white;
+    padding: 3px;
+    border-radius: 8px;
+}
+.form button {
+    width: 50px;
+    height: 46px;
+    color: white;
+    background-color: #F6CA00;
+    border: 1px solid #F6CA00;
+    border-radius: 5px;
+}
+.form input {
+    font-size: 25px;
+    border: none;
+    outline: none;
+}
